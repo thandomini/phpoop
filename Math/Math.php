@@ -182,6 +182,7 @@ class FacebookProvide implements Provider
 	}
 }
 
+// self ammendment, I decided to use boththe interface as well as the implemented class for this one.
 class TwitterProvide extends AbstractProvider implements Provider
 {
 	public function getAuthorizationUrl()
